@@ -54,3 +54,19 @@ class DynamicArray {
         this.count--;
     }
 }
+
+
+// Example usage
+const numbers = new DynamicArray();
+
+numbers.insert(10);
+numbers.insert(20);
+numbers.insert(30);
+
+numbers.print();
+
+console.log(numbers.findIndex(20));
+
+numbers.removeAt(1);
+
+numbers.print();
